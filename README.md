@@ -26,7 +26,7 @@ at the root of the repo : `composer create-project drupal-composer/drupal-projec
 ## Drush Install
 
 Drush allows, in particular, to enable the installed modules, in command lines.
-In root of your drupal directory, at the same level of `composer.json` file : `composer require drush/drush`
+In root of your drupal directory, at the same level of `composer.json` file : `composer require predis/predis` `composer require drush/drush`  `cp modules/contrib/redis/example.services.yml sites/default/redis.services.yml`
 
 ## Redis
 
